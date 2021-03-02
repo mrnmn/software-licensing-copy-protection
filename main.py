@@ -14,7 +14,7 @@ from verification import clear_periods
 #running in backend.
 
 if __name__ == '__main__':
-    #set_trial_columns() Add the columns for the trial period to your table. (for the first time only)
+    #set_trial_columns('tablename') Add the columns for the trial period to your table. (for the first time only)
 
 
     #a customer buy the product. Add a customer , mac always NULL.
