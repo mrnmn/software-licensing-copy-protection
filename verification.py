@@ -10,8 +10,8 @@ CREATE TABLE devices
   mac BIGINT UNIQUE DEFAULT NULL
 );
 
--- trial table exemple if you want to use a separate table, But it needs some changes in the code.
--- this module works wuith one table for copy protection and free trial periods.
+-- trial table exemple
+-- this module works with one table for copy protection and free trial periods.
 
 CREATE TABLE trial
 (
