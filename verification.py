@@ -1,3 +1,5 @@
+#usage:
+#running in backend.
 import psycopg2
 from psycopg2 import sql
 from datetime import date as get_date
