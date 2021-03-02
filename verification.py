@@ -192,6 +192,7 @@ def trial_expired(tablename:str, mac:int):
                          return True # return true,(trial period expired) the mac has been successfully removed , and the status is changed to true.
              except:
                  raise Exception("cant remove the mac adress./ modfy the status column.") # ERROR!
+                 return False
                
                     
         else:
