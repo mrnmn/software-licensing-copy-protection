@@ -48,7 +48,7 @@ if __name__ == '__main__':
     #Change status for customers with an expired trial period.
     # change the status for a clinet from trial to paid. (true to false)
     if trial_to_paid('tablename','user@gmail.com'):
-        # the status changed do something.
+        # the status changed. do something.
 
 
    #clear start date and end date (trial period), works after the trial period ends.
