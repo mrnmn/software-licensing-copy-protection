@@ -18,10 +18,12 @@ if __name__ == '__main__':
 
 
     #a customer buy the product. Add a customer , mac always NULL.
+    #Processing more than 1..
     new_client('tablename','user@gmail.com',None)
 
     #The customer uses the license to activate the product
     #Receive the Mac and e-mail from the license
+    #Processing more than 1..
     if activate_license('tablenale','user@gmail.com',9999999999999): # the mac converted from hexa to int.
         #return true Activation was successful, or determine a trial period according to customer type
         #determine a trial period
@@ -32,6 +34,7 @@ if __name__ == '__main__':
 
     #Protect your software from copying. Every time the software is launched, the Mac is sent.
     #Receive the Mac from the software
+    #Processing more than 1..
     if is_mac_exist('tablename',9999999999999):
         #return true to the lifetime client (It does not have a trial period.)
     
@@ -39,6 +42,7 @@ if __name__ == '__main__':
     #clinets with trial period
     #Every time the software is launched, the Mac is sent.
     #Check if the trial period has expired.
+    #Processing more than 1..
     if is_mac_exist('tablename',9898989898989) and not trial_expired('tablename',9898989898989):
         #return true (can use the software)
     else:
