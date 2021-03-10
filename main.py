@@ -10,6 +10,7 @@ from verification import trial_expired
 from verification import trial_to_paid
 from verification import activate_license_after_trial
 from verification import clear_periods
+from queue import Queue
 #usage:
 #running in backend.
 
@@ -19,7 +20,15 @@ if __name__ == '__main__':
 
     #a customer buy the product. Add a customer , mac always NULL.
     #Processing more than 1..
-    new_client('tablename','user@gmail.com',None)
+    q = Queue()
+    try:
+        q.put('user@gmail.com')
+    #add clinets
+        while not q.empty():
+            new_client('tablename',q.get(),None)
+    except:
+        print("oops!")
+    print("added seccessfully!")
 
     #The customer uses the license to activate the product
     #Receive the Mac and e-mail from the license
