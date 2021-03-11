@@ -1,5 +1,5 @@
 # all functions 
-# handling statement after statement
+# handling statement after statement.
 from verification import new_client
 from verification import activate_license
 from verification import change_device
