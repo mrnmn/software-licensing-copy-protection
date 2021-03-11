@@ -21,6 +21,14 @@ if __name__ == '__main__':
 
     #a customer buy the product. Add a customer , mac always NULL.
     #Processing more than 1..
+    ---------------------------------------
+    #def handle_data(email:str, newClinet):
+    #if email:
+        #newClinet('devices',email, None)
+        
+    #def send_data(email:str):
+    #handle_data(email, new_client) 
+    ----------------------------------------
     q = Queue()
     try:
         q.put('user@gmail.com')
