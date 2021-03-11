@@ -26,8 +26,8 @@ if __name__ == '__main__':
     #if email:
         #newClinet('tablename',email, None)
         
-    #def send_data(email:str):
-    #handle_data(email, new_client) 
+    #def send_data(email:str): 
+        #handle_data(email, new_client) 
     ----------------------------------------
     q = Queue()
     try:
