@@ -24,7 +24,7 @@ if __name__ == '__main__':
     ---------------------------------------
     #def handle_data(email:str, newClinet):
     #if email:
-        #newClinet('devices',email, None)
+        #newClinet('tablename',email, None)
         
     #def send_data(email:str):
     #handle_data(email, new_client) 
