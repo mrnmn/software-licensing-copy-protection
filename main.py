@@ -29,7 +29,8 @@ if __name__ == '__main__':
     #def send_data(email:str): 
         #handle_data(email, new_client) 
     ----------------------------------------
-    q = Queue()
+    #using queue
+    """q = Queue()
     try:
         q.put('user@gmail.com')
     #add clinets
@@ -37,7 +38,8 @@ if __name__ == '__main__':
             new_client('tablename',q.get(),None)
     except:
         print("oops!")
-    print("added seccessfully!")
+    print("added seccessfully!")"""
+    ------------------------------------------
 
     #The customer uses the license to activate the product
     #Receive the Mac and e-mail from the license
